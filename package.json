@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server/index.js" // Added a start script for the backend
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
@@ -40,3 +40,4 @@
     "vite": "^5.4.12"
   }
 }
+
